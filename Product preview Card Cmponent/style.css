@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 25% 25%;
+}
+ 
+.main-container img{
+    width: 100%;
+    height: 100%;
+}
+.left-container {
+    width: 100%;
+    height: 100%;
+
+}
+.right-container h5 {
+    font-weight: 100;
+    font-style:normal;
+    letter-spacing: 6px;
+}
+
+.right-container p {
+    font-weight: 300;
+    font-style:normal;
+}
+
+.right-container {
+    margin: 5% 5%;
+}
+.text-mod {
+    color: green;
+}
+.price {
+    display: flex;
+    align-items: center;
+}
+.op-price {
+    font: 100;
+    text-decoration: line-through;
+    font-weight: 200;
+}
+
+.purchase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor:pointer;
+    transition-duration: .4s;
+    transition-delay: .2s;
+}
